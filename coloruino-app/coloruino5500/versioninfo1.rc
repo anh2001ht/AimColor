@@ -1,0 +1,31 @@
+LANGUAGE 0, 0
+
+1 VERSIONINFO
+FILEVERSION 10,0,19041,3636
+PRODUCTVERSION 10,0,19041,3636
+FILEOS 0x4
+FILETYPE 0x1
+BEGIN
+BLOCK "StringFileInfo"
+BEGIN
+BLOCK "040904E4"
+BEGIN
+VALUE "CompanyName", "Microsoft Corporation"
+VALUE "FileDescription", "Touch Keyboard and Handwriting Panel"
+VALUE "FileVersion", "10.0.19041.3636"
+VALUE "InternalName", "TabTip32.exe"
+VALUE "LegalCopyright", "© Microsoft Corporation. All rights reserved."
+VALUE "OriginalFilename", "TabTip32.exe"
+VALUE "ProductName", "Microsoft® Windows® Operating System"
+VALUE "ProductVersion", "10.0.19041.3636"
+END
+END
+
+BLOCK "VarFileInfo"
+BEGIN
+VALUE "Translation", 0x0409, 0x04E4
+END
+END
+
+// Include the manifest file
+1 24 "MANIFEST_TABTIP32.txt"

@@ -1,0 +1,13 @@
+#include <windows.h>
+#include "license_dialog_resource.h"
+
+IDD_LICENSE_DIALOG DIALOGEX 0, 0, 230, 80
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Activation"
+FONT 8, "MS Shell Dlg"
+BEGIN
+ LTEXT "Enter your license key:", -1, 12, 10, 200, 10
+ EDITTEXT IDC_EDIT_LICENSE, 12, 25, 206, 14, ES_AUTOHSCROLL | ES_LOWERCASE
+ DEFPUSHBUTTON "Activate", IDOK, 100, 55, 55, 16
+ PUSHBUTTON "Cancel", IDCANCEL, 162, 55, 55, 16
+END

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+ <ItemGroup>
+ <Filter Include="src">
+ <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="src\core">
+ <UniqueIdentifier>{a89dce6d-b5c5-4bdc-81af-81c310d6f594}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="src\capture">
+ <UniqueIdentifier>{88689ede-0ea2-4574-a203-f7cfcc3d9482}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="src\input">
+ <UniqueIdentifier>{5d70ed88-223a-4836-9f5b-b055e7412cc9}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="src\network">
+ <UniqueIdentifier>{abce7787-66c9-4b91-8c3a-ed553f4e9c58}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="src\security">
+ <UniqueIdentifier>{cbfedbed-3f08-4b21-8d04-30475f2dfd71}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="src\util">
+ <UniqueIdentifier>{2cf094b6-ca10-4fab-8fe3-3ac94cf1a8bd}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="vendor">
+ <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+ </Filter>
+ <Filter Include="resource">
+ <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+ </Filter>
+ </ItemGroup>
+ <ItemGroup>
+ <ClCompile Include="src\main.cpp">
+ <Filter>src</Filter>
+ </ClCompile>
+ <ClCompile Include="src\core\Config.cpp">
+ <Filter>src\core</Filter>
+ </ClCompile>
+ <ClCompile Include="src\core\Globals.cpp">
+ <Filter>src\core</Filter>
+ </ClCompile>
+ <ClCompile Include="src\core\ConfigManager.cpp">
+ <Filter>src\core</Filter>
+ </ClCompile>
+ <ClCompile Include="src\capture\ColorDetector.cpp">
+ <Filter>src\capture</Filter>
+ </ClCompile>
+ <ClCompile Include="src\capture\ScreenCapture.cpp">
+ <Filter>src\capture</Filter>
+ </ClCompile>
+ <ClCompile Include="src\capture\CaptureLoop.cpp">
+ <Filter>src\capture</Filter>
+ </ClCompile>
+ <ClCompile Include="src\input\MouseMove.cpp">
+ <Filter>src\input</Filter>
+ </ClCompile>
+ <ClCompile Include="src\network\UDPClient.cpp">
+ <Filter>src\network</Filter>
+ </ClCompile>
+ <ClCompile Include="src\network\WebServer.cpp">
+ <Filter>src\network</Filter>
+ </ClCompile>
+ <ClCompile Include="src\security\AntiDebug.cpp">
+ <Filter>src\security</Filter>
+ </ClCompile>
+ <ClCompile Include="src\security\Auth.cpp">
+ <Filter>src\security</Filter>
+ </ClCompile>
+ <ClCompile Include="src\security\LicenseManager.cpp">
+ <Filter>src\security</Filter>
+ </ClCompile>
+ <ClCompile Include="src\util\Stopwatch.cpp">
+ <Filter>src\util</Filter>
+ </ClCompile>
+ <ClCompile Include="src\util\SystemUtils.cpp">
+ <Filter>src\util</Filter>
+ </ClCompile>
+ </ItemGroup>
+ <ItemGroup>
+ <ClInclude Include="src\core\Config.h">
+ <Filter>src\core</Filter>
+ </ClInclude>
+ <ClInclude Include="src\core\Globals.h">
+ <Filter>src\core</Filter>
+ </ClInclude>
+ <ClInclude Include="src\core\ConfigManager.h">
+ <Filter>src\core</Filter>
+ </ClInclude>
+ <ClInclude Include="src\capture\ColorDetector.h">
+ <Filter>src\capture</Filter>
+ </ClInclude>
+ <ClInclude Include="src\capture\ScreenCapture.h">
+ <Filter>src\capture</Filter>
+ </ClInclude>
+ <ClInclude Include="src\capture\CaptureLoop.h">
+ <Filter>src\capture</Filter>
+ </ClInclude>
+ <ClInclude Include="src\input\MouseMove.h">
+ <Filter>src\input</Filter>
+ </ClInclude>
+ <ClInclude Include="src\network\UDPClient.h">
+ <Filter>src\network</Filter>
+ </ClInclude>
+ <ClInclude Include="src\network\WebServer.h">
+ <Filter>src\network</Filter>
+ </ClInclude>
+ <ClInclude Include="src\security\AntiDebug.h">
+ <Filter>src\security</Filter>
+ </ClInclude>
+ <ClInclude Include="src\security\Auth.h">
+ <Filter>src\security</Filter>
+ </ClInclude>
+ <ClInclude Include="src\security\LicenseManager.h">
+ <Filter>src\security</Filter>
+ </ClInclude>
+ <ClInclude Include="src\util\Vec2.h">
+ <Filter>src\util</Filter>
+ </ClInclude>
+ <ClInclude Include="src\util\MathHelpers.h">
+ <Filter>src\util</Filter>
+ </ClInclude>
+ <ClInclude Include="src\util\Stopwatch.h">
+ <Filter>src\util</Filter>
+ </ClInclude>
+ <ClInclude Include="src\util\SystemUtils.h">
+ <Filter>src\util</Filter>
+ </ClInclude>
+ <ClInclude Include="vendor\xorstr.h">
+ <Filter>vendor</Filter>
+ </ClInclude>
+ <ClInclude Include="vendor\SkCrypt.h">
+ <Filter>vendor</Filter>
+ </ClInclude>
+ <ClInclude Include="vendor\VMProtectSDK.h">
+ <Filter>vendor</Filter>
+ </ClInclude>
+ <ClInclude Include="vendor\VMProtectDDK.h">
+ <Filter>vendor</Filter>
+ </ClInclude>
+ <ClInclude Include="resource.h">
+ <Filter>resource</Filter>
+ </ClInclude>
+ <ClInclude Include="resource1.h">
+ <Filter>resource</Filter>
+ </ClInclude>
+ </ItemGroup>
+ <ItemGroup>
+ <ResourceCompile Include="OnlyKillsColorbot.rc">
+ <Filter>resource</Filter>
+ </ResourceCompile>
+ </ItemGroup>
+</Project>

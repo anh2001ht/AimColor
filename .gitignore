@@ -1,0 +1,38 @@
+# Visual Studio / MSBuild
+.vs/
+bin/
+obj/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.obj
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local/generated secrets and payloads
+*.key
+*.pem
+*.enc
+*.secret
+*.secrets
+secrets.json
+secrets.local.*
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
